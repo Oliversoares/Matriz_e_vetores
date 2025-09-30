@@ -8,6 +8,6 @@ for (int i = 0; i < 3; i++)
     soma = soma += nota[i];
 }
 double media = soma / nota.Length;
-Console.WriteLine($"O valor da sua média de notas é: {media}");
+Console.WriteLine($"O valor da sua média de notas é: {media:F2}");
 
 
